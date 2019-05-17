@@ -6,7 +6,7 @@
 	<groupId>com.holomatic.hello_world</groupId>
 	<artifactId>hello_world</artifactId>
 	<version>1.0</version>
-	<packaging>zip</packaging>
+	<packaging>jar</packaging>
 
 	<name>Hello World Project</name>
 	<description>Only a test</description>
