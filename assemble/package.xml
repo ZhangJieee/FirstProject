@@ -33,4 +33,14 @@
 	    <fileMode>0644</fileMode> 
     </fileSet>
     </fileSets>
+
+    <dependencySets>  
+        <dependencySet>  
+            <useProjectArtifact>true</useProjectArtifact>  
+            <outputDirectory>lib</outputDirectory>  
+            <!-- 将scope为runtime的依赖包打包到lib目录下。 -->  
+            <scope>runtime</scope>  
+        </dependencySet>  
+    </dependencySets> 
+
 </assembly>
