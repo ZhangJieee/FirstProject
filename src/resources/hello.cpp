@@ -1,6 +1,27 @@
-#include <stdio.h>
+#include <iostream>
+#include "../includes/hello.h"
 
-int main()
+Hello::Hello():s("hello world")
 {
-    std::cout<<"hello world"<<std::endl;
+
+}
+
+Hello::Hello(const Hello& tmp)
+{
+    s = tmp.s;
+}
+
+Hello& Hello::operator=(const Hello& tmp)
+{
+    if(this == &tmp)
+	    return *this;
+
+    s = tmp.s;
+
+    return *this;
+}
+
+void Hello::Display()
+{
+    std::cout<<s<<std::endl;
 }
