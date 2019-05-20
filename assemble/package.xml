@@ -10,7 +10,7 @@
 
     <includeBaseDirectory>true</includeBaseDirectory>
 
-    <fileSet> 
+    <fileset> 
 	    <!--自定义脚本目录打包--> 
 	    <directory>${project.basedir}\src\main\bin</directory> 
 	    <outputDirectory>\bin</outputDirectory> 
@@ -20,9 +20,9 @@
 	    
 	    <!--设置权限--> 
 	    <fileMode>0755</fileMode> 
-    </fileSet>
+    </fileset>
 
-    <fileSet> 
+    <fileset> 
 	    <!--外部配置文件打包--> 
 	    <directory>${project.basedir}\src\main\config</directory> 
 	    <outputDirectory>\config</outputDirectory> 
@@ -30,5 +30,5 @@
 		    <include>*.*</include> 
             </includes> 
 	    <fileMode>0644</fileMode> 
-    </fileSet>
+    </fileset>
 </assembly>
