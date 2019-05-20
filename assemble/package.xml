@@ -13,7 +13,7 @@
     <fileSets>
     <fileSet> 
 	    <!--自定义脚本目录打包--> 
-	    <directory>${project.basedir}\src\main\bin</directory> 
+	    <directory>${project.basedir}\src\bin</directory> 
 	    <outputDirectory>/</outputDirectory> 
 	    <includes> 
 		    <include>*.*</include> 
@@ -25,7 +25,7 @@
 
     <fileSet> 
 	    <!--外部配置文件打包--> 
-	    <directory>${project.basedir}\src\main\config</directory> 
+	    <directory>${project.basedir}\src\config</directory> 
 	    <outputDirectory>/config</outputDirectory> 
 	    <includes> 
 		    <include>*.*</include> 
