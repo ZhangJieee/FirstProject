@@ -11,7 +11,7 @@
 	<description>Only a test</description>
 
 	<build>
-		<finalName>sh-decoder-config</finalName>
+		<finalName>helloworld</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
