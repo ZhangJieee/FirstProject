@@ -9,4 +9,28 @@
 
 	<name>Hello World Project</name>
 	<description>Only a test</description>
+
+	<build>
+		<finalName>sh-decoder-config</finalName>
+		<plugins>
+			<pulgin>
+				<groupId>org.apache.maven.plugins<groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<version>2.7</version>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+		<plugins>
+
+	        <resources>
+			<resource>
+				<directory>src/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>src/includes</include>
+				</includes>
+			</resource>
+		</resources>
+        </build>
 </project>
